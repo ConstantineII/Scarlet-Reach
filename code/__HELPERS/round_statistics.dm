@@ -7,6 +7,7 @@
 #define STATS_ALIVE_HALF_ORCS "alive_half_orcs"
 #define STATS_ALIVE_GOBLINS "alive_goblins"
 #define STATS_ALIVE_KOBOLDS "alive_kobolds"
+#define STATS_ALIVE_HARPIES "alive_harpies"
 #define STATS_ALIVE_LIZARDS "alive_lizards"
 #define STATS_ALIVE_AASIMAR "alive_aasimar"
 #define STATS_ALIVE_TIEFLINGS "alive_tieflings"
@@ -210,6 +211,7 @@ GLOBAL_LIST_INIT(scarlet_round_stats, list(
 	STATS_ALIVE_HALF_ORCS = 0,
 	STATS_ALIVE_GOBLINS = 0,
 	STATS_ALIVE_KOBOLDS = 0,
+	STATS_ALIVE_HARPIES = 0,
 	STATS_ALIVE_LIZARDS = 0,
 	STATS_ALIVE_AASIMAR = 0,
 	STATS_ALIVE_TIEFLINGS = 0,

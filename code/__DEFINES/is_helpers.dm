@@ -86,13 +86,14 @@ GLOBAL_LIST_INIT(our_forest_sex, typecacheof(list(
 #define ishalfelf(A) (is_species(A, /datum/species/human/halfelf))
 #define istiefling(A) (is_species(A, /datum/species/tieberian))
 #define ishalforc(A) (is_species(A, /datum/species/halforc))
+#define isharpy(A) (is_species(A, /datum/species/harpy))
 #define islizard(A) (is_species(A, /datum/species/lizardfolk))
 #define isgoblinp(A) (is_species(A, /datum/species/goblinp))
 #define iskobold(A) (is_species(A, /datum/species/kobold))
 #define isaasimar(A) (is_species(A, /datum/species/aasimar))
 #define ishalfkin(A) (is_species(A, /datum/species/demihuman))
 #define iswildkin(A) (is_species(A, /datum/species/anthromorph))
-#define isgolemp(A) (is_species(A, /datum/species/golem/metal))	//Specified 'M' due to redefine lower
+#define isgolemp(A) (is_species(A, /datum/species/golem/metal))	//Specified 'p' due to redefine lower
 #define isvermin(A) (is_species(A, /datum/species/anthromorphsmall))
 #define isaxian(A) (is_species(A, /datum/species/akula))
 #define isdracon(A) (is_species(A, /datum/species/dracon))

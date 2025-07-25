@@ -121,6 +121,18 @@
 		/datum/sprite_accessory/tail/pinecone
 	)
 
+/datum/customizer/organ/tail/harpy
+	customizer_choices = list(/datum/customizer_choice/organ/tail/harpy)
+	allows_disabling = TRUE
+
+/datum/customizer_choice/organ/tail/harpy
+	name = "Harpy Plumage"
+	organ_type = /obj/item/organ/tail
+	generic_random_pick = TRUE
+	sprite_accessories = list(
+		/datum/sprite_accessory/tail/hawk,
+		)
+
 /datum/customizer/organ/tail/axian
 	customizer_choices = list(/datum/customizer_choice/organ/tail/axian)
 

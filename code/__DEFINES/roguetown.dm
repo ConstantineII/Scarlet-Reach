@@ -121,6 +121,7 @@
 	/datum/species/demihuman,\
 	/datum/species/halforc,\
 	/datum/species/kobold,\
+	/datum/species/harpy,\
 	/datum/species/goblinp,\
 )
 
@@ -156,6 +157,7 @@
 
 #define RACES_WIDELY_REVILED \
     /datum/species/anthromorphsmall,\
+	/datum/species/harpy,\
     /datum/species/kobold,\
     /datum/species/goblinp,\
 
@@ -195,6 +197,7 @@
 	/datum/species/anthromorph,\
 	/datum/species/anthromorphsmall,\
 	/datum/species/demihuman,\
+	/datum/species/harpy,\
 	/datum/species/kobold,\
 	/datum/species/goblinp,\
 	/datum/species/golem/metal,\
@@ -219,6 +222,7 @@
 	/datum/species/anthromorphsmall,\
 	/datum/species/demihuman,\
 	/datum/species/halforc,\
+	/datum/species/harpy,\
 	/datum/species/kobold,\
 	/datum/species/goblinp,\
 	/datum/species/golem/metal,\
@@ -241,6 +245,7 @@
 	/datum/species/anthromorph,\
 	/datum/species/demihuman,\
 	/datum/species/halforc,\
+	/datum/species/harpy,\
 	/datum/species/golem/metal,\
 )
 // Non-elf non-dwarf non-kobold non-goblin mostly
@@ -255,6 +260,7 @@
 	/datum/species/akula,\
 	/datum/species/moth,\
 	/datum/species/dracon,\
+	/datum/species/harpy,\
 	/datum/species/anthromorph,\
 	/datum/species/demihuman,\
 	/datum/species/golem/metal,\

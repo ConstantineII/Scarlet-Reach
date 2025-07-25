@@ -1144,6 +1144,7 @@ SUBSYSTEM_DEF(gamemode)
 	GLOB.scarlet_round_stats[STATS_ALIVE_HALF_ORCS] = 0
 	GLOB.scarlet_round_stats[STATS_ALIVE_GOBLINS] = 0
 	GLOB.scarlet_round_stats[STATS_ALIVE_KOBOLDS] = 0
+	GLOB.scarlet_round_stats[STATS_ALIVE_HARPIES] = 0
 	GLOB.scarlet_round_stats[STATS_ALIVE_LIZARDS] = 0
 	GLOB.scarlet_round_stats[STATS_ALIVE_AASIMAR] = 0
 	GLOB.scarlet_round_stats[STATS_ALIVE_TIEFLINGS] = 0
@@ -1240,6 +1241,8 @@ SUBSYSTEM_DEF(gamemode)
 				GLOB.scarlet_round_stats[STATS_ALIVE_GOBLINS]++
 			if(iskobold(human_mob))
 				GLOB.scarlet_round_stats[STATS_ALIVE_KOBOLDS]++
+			if(isharpy(human_mob))
+				GLOB.scarlet_round_stats[STATS_ALIVE_HARPIES]++
 			if(islizard(human_mob))
 				GLOB.scarlet_round_stats[STATS_ALIVE_LIZARDS]++
 			if(isaasimar(human_mob))

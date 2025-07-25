@@ -38,6 +38,20 @@
 		/datum/sprite_accessory/wings/large/harpyswept,
 		)
 
+/datum/customizer/organ/wings/harpy
+	customizer_choices = list(/datum/customizer_choice/organ/wings/harpy)
+	allows_disabling = FALSE
+
+/datum/customizer_choice/organ/wings/harpy
+	name = "Wings"
+	organ_type = /obj/item/organ/wings/flight
+	sprite_accessories = list(
+		/datum/sprite_accessory/wings/wide/harpywings_top,
+		/datum/sprite_accessory/wings/wide/harpywingsalt1_top,
+		/datum/sprite_accessory/wings/wide/harpywingsalt2_top,
+		/datum/sprite_accessory/wings/large/harpyswept,
+	)
+
 /datum/customizer/organ/wings/moth
 	name = "Fluvian Wings"
 	allows_disabling = TRUE
@@ -91,7 +105,6 @@
 		/datum/sprite_accessory/wings/featheryv2,
 		/datum/sprite_accessory/wings/fairy,
 		/datum/sprite_accessory/wings/bee,
-		/datum/sprite_accessory/wings/wide/harpywings,
 		/datum/sprite_accessory/wings/wide/harpywingsalt1,
 		/datum/sprite_accessory/wings/wide/harpywingsalt2,
 		/datum/sprite_accessory/wings/wide/harpywings_top,
