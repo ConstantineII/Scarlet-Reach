@@ -4050,7 +4050,7 @@
 /obj/structure/fluff/walldeco/customflag{
 	pixel_x = -32
 	},
-/turf/open/floor/rogue/grassyel,
+/turf/closed/wall/mineral/rogue/stone,
 /area/rogue/indoors/town)
 "blV" = (
 /obj/structure/fluff/railing/border{
@@ -27996,7 +27996,7 @@
 /obj/structure/fluff/littlebanners/greenwhite{
 	pixel_y = -6
 	},
-/turf/open/floor/rogue/grassyel,
+/turf/closed/wall/mineral/rogue/stone,
 /area/rogue/indoors/town)
 "izk" = (
 /obj/structure/fluff/walldeco/church/line,
@@ -39835,7 +39835,7 @@
 	dir = 4
 	},
 /obj/effect/spawner/roguemap/stump,
-/turf/open/floor/rogue/grass,
+/turf/closed/wall/mineral/rogue/stone,
 /area/rogue/indoors/town)
 "mha" = (
 /obj/structure/table/wood{
@@ -46098,7 +46098,7 @@
 /obj/effect/decal/mossy{
 	dir = 4
 	},
-/turf/open/floor/rogue/grassyel,
+/turf/closed/wall/mineral/rogue/stone,
 /area/rogue/indoors/town)
 "nZA" = (
 /turf/closed/wall/mineral/rogue/wooddark/window,
@@ -62536,13 +62536,8 @@
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/indoors)
 "taA" = (
-/obj/effect/decal/mossy{
-	dir = 4
-	},
-/obj/structure/fluff/walldeco/customflag{
-	pixel_x = -32
-	},
-/turf/open/floor/rogue/grass,
+/obj/machinery/light/rogue/torchholder/l,
+/turf/closed/wall/mineral/rogue/stone,
 /area/rogue/indoors/town)
 "taH" = (
 /obj/structure/roguetent,
@@ -255960,8 +255955,8 @@ pLh
 phl
 phl
 mLN
-bjX
 taA
+blL
 mgV
 izg
 nZv
@@ -483306,8 +483301,8 @@ aBB
 aBB
 aBB
 aBB
-bGf
-bGf
+aBB
+aBB
 kSK
 kSK
 bsK
@@ -483745,9 +483740,6 @@ bGf
 fha
 fha
 fha
-bGf
-bGf
-bGf
 aBB
 aBB
 aBB
@@ -483758,7 +483750,10 @@ aBB
 aBB
 aBB
 aBB
-bGf
+aBB
+aBB
+aBB
+aBB
 kSK
 kSK
 phl
@@ -483779,20 +483774,20 @@ phl
 phl
 kSK
 kSK
-bGf
-bGf
-bGf
-bGf
-bGf
-bGf
-bGf
-bGf
-bGf
-bGf
-bGf
-bGf
-bGf
-bGf
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
 kSK
 kSK
 kSK
@@ -484198,19 +484193,19 @@ fha
 fha
 fha
 fha
-bGf
-bGf
-bGf
-bGf
-bGf
-bGf
-bGf
-bGf
-bGf
-bGf
-bGf
-bGf
-bGf
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
 kSK
 phl
 phl
@@ -484231,19 +484226,19 @@ bzY
 txq
 phl
 kSK
-bGf
-bGf
-bGf
-bGf
-bGf
-bGf
-bGf
-bGf
-bGf
-bGf
-bGf
-bGf
-bGf
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
 kSK
 kSK
 kSK
