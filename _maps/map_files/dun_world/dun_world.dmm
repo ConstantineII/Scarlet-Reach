@@ -77048,10 +77048,6 @@
 	},
 /turf/open/floor/rogue/tile/brick,
 /area/rogue/indoors/town/bath)
-"xqI" = (
-/obj/effect/landmark/start/veteran,
-/turf/open/floor/carpet/purple,
-/area/rogue/indoors/town)
 "xqJ" = (
 /obj/effect/spawner/lootdrop/roguetown/dungeon/tools,
 /turf/open/floor/rogue/blocks,
@@ -391534,7 +391530,7 @@ bGf
 phl
 six
 xWU
-xqI
+xWU
 xWU
 pCT
 bGf
