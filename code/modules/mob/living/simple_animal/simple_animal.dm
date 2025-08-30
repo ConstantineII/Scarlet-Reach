@@ -193,7 +193,6 @@ GLOBAL_VAR_INIT(farm_animals, FALSE)
 //		AddComponent(/datum/component/personal_crafting)
 
 /mob/living/simple_animal/Destroy()
-	our_cells = null
 	GLOB.simple_animals[AIStatus] -= src
 	SSnpcpool.currentrun -= src
 
